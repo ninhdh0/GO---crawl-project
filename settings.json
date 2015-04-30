@@ -1,0 +1,85 @@
+{
+	"ENV": "local",
+	"CONF":[
+		{
+			"name": "local",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "root",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		},
+		{
+			"name": "dev",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "dev",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		},
+		{
+			"name": "production",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "production",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		},
+		{
+			"name": "aws",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "aws",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		},
+		{
+			"name": "admin-local",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "root",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		},
+		{
+			"name": "admin-dev",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "root",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		},
+		{
+			"name": "admin-production",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "root",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		},
+		{
+			"name": "admin-aws",
+			"host": "localhost",
+		    "port": "3306",
+		    "username": "root",
+		    "password": "123456",
+		    "database": "db",
+		    "protocol": "tcp",
+		    "arg": ""
+		}
+	]
+}
