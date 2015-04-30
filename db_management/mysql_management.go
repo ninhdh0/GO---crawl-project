@@ -65,7 +65,7 @@ func (db *DbManagement) GetProductByUrl(url string) []db_object.Product {
 
 	query += "select product_id,title,store_id, owner_id, price, currency, quantity, photo_id, public, actived,create_date,"
 	query += "url, shop_category,update_date, scraped,description,claim_id,before_price,deleted"
-	query += " from engine4_store_products where url = \"" + strings.Replace(url, "\"", "'", -1) + "\""
+	query += " from " + PRODUCT_TABLE_NAME + " where url = \"" + strings.Replace(url, "\"", "'", -1) + "\""
 
 	_, err := db.DbConnection.Select(&product, query)
 	if err != nil {
